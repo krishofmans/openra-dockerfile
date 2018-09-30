@@ -27,7 +27,9 @@ WORKDIR /home/openra
 
 # http://www.openra.net/download/
 ENV OPENRA_RELEASE_VERSION=20180923
-ENV OPENRA_RELEASE=https://github.com/OpenRA/OpenRA/releases/download/release-${OPENRA_RELEASE_VERSION}/OpenRA-Red-Alert-x86_64.AppImage
+#ENV OPENRA_RELEASE=https://github.com/OpenRA/OpenRA/releases/download/release-${OPENRA_RELEASE_VERSION}/OpenRA-Red-Alert-x86_64.AppImage
+ENV OPENRA_RELEASE=https://www.dropbox.com/s/b36943xfiu5qvg4/OpenRA-Red-Alert-x86_64.AppImage?dl=1
+
 RUN \
   mkdir /home/openra/tmp && \
   cd /home/openra/tmp && \
